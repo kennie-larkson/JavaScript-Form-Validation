@@ -1,0 +1,25 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Baloo+Da|Roboto');
+
+body{
+    background: rebeccapurple;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.form-container{
+    width: 20%;
+    /*height: 50px;*/
+    border: 5px solid royalblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#input{
+    padding: 5px;
+    margin: 5px;
+    
+}
+
