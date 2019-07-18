@@ -8,18 +8,37 @@ body{
 }
 
 .form-container{
-    width: 20%;
+    width: 30%;
     /*height: 50px;*/
-    border: 5px solid royalblue;
+    border: 1px solid royalblue;
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
+   /* display: inline-block;*/
 }
 
-#input{
+div #input{
     padding: 5px;
-    margin: 5px;
+    margin: 25px;
+   /* display: inline-block;*/
     
+}
+
+.form-body{
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+}
+
+/*label{
+    display: inline;
+    
+}*/
+
+[submit-btn]{
+    padding: 5px;
+    margin: 20px 150px 5px 0;
+    border: 1px solid green;
 }
 

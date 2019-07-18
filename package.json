@@ -1,0 +1,26 @@
+{
+  "name": "javascript-form-validation",
+  "version": "1.0.0",
+  "description": "A form field validation application processed in JavaSCript\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[implemented in Javascript ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennie-larkson/JavaScript-Form-Validation.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Html",
+    "CSS",
+    "node",
+    "npm"
+  ],
+  "author": "@kennie_larkson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennie-larkson/JavaScript-Form-Validation/issues"
+  },
+  "homepage": "https://github.com/kennie-larkson/JavaScript-Form-Validation#readme"
+}
