@@ -10,18 +10,25 @@
 <body>
 
     <section class="form-container">
+        <h1>A Quick Form</h1>
         <form action="" class="form-body" method="GET">
             <div id="input">
                     <label for="" id="fname">First Name:</label>
-                    <input type="text" id="fname-data" size="25" required />
-                    <span id="fname-error-span"></span>
+                    <input type="text" fname-data size="25" required placeholder="First name"  /><br>
+                    <span fname-validate-span ></span>
             </div>
             <div id="input">
                     <label for="" id="lname">Last Name:</label>
-                    <input type="text" id="lname-data" size="25" />
-                    <span id="error-lname"></span>
-                </div>
+                    <input type="text" lname-data size="25" required placeholder="Last name"  /><br>
+                    <span lname-validate-span ></span>   
+            </div>
+            <div id="input">
+                    <label for="" id="e-mail">E-mail  :</label>
+                    <input type="email" email-data size="25" required placeholder="E-mail"  /><br>
+                    <span email-validate-span ></span>   
+            </div>
                 <button submit-btn type="submit">Submit</button>
+                <button reset-btn type="reset">Reset</button>
         </form>
     </section>
     <script src="main.js"></script>

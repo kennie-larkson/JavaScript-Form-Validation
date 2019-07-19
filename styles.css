@@ -1,44 +1,100 @@
 @import 
 url('https://fonts.googleapis.com/css?family=Baloo+Da|Roboto');
 
+
 body{
     background: rebeccapurple;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 .form-container{
-    width: 30%;
-    /*height: 50px;*/
+    width: 40%;
     border: 1px solid royalblue;
     border-radius: 5px;
-    text-align: center;
-    margin-top: 20px;
+    /*text-align: center;*/
+    margin: auto;
+    margin-top: 200px;
     padding: 10px;
-   /* display: inline-block;*/
+    background-color: aliceblue;
+    display: inline-block;
+}
+
+.form-container:hover{
+    padding: 20px;
+}
+
+div label{
+    margin-left: 30px;
 }
 
 div #input{
     padding: 5px;
-    margin: 25px;
-   /* display: inline-block;*/
-    
+    margin-left: 25px;
+    display: inline-block;
+}
+
+input [email-data]{
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+div #input:focus{
+    padding: 10px;
+    margin: 35px;
 }
 
 .form-body{
     padding: 5px;
     margin: 10px;
     display: inline;
+    
 }
 
-/*label{
-    display: inline;
-    
-}*/
+
 
 [submit-btn]{
     padding: 5px;
-    margin: 20px 150px 5px 0;
+    margin-top: 10px ;
     border: 1px solid green;
 }
 
+[submit-btn]:hover{
+    padding: 10px;
+    margin-top: 10px ;
+    background-color: aquamarine;
+}
+
+[reset-btn]{
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid green;
+}
+
+[reset-btn]:hover{
+    padding: 10px;
+    margin-top: 10px ;
+    background-color: aquamarine;
+}
+
+[fname-validate-span]{
+    color: red;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+[lname-validate-span]{
+    color:red;
+    margin: 10px;
+    padding: 5px;
+}
+
+[email-validate-span]{
+    color:red;
+    margin: 10px;
+    padding: 5px;
+}
